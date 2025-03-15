@@ -20,7 +20,7 @@ const Footer = () => {
                     marginTop: "10px"
                 }}
             >
-              <em>&copy; 2025</em> Adarsh Das
+              <i>&copy; 2025</i> Adarsh Das
             </h5>
                     
                 

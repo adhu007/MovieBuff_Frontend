@@ -1,5 +1,4 @@
-//const BASE_URL = "";
-//const limit = 12;
+// Using External API 
 
 export const getMovies = async () => {
     

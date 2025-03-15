@@ -12,17 +12,11 @@ import { MovieProvider } from './Contexts/MovieContext';
 
 function App() {
 
-
-
   return (
-    <>
-        
+    <>      
           <MovieProvider>
-
-          <NavBar/>
-         
+          <NavBar/>      
           <main className="main-content">
-
             <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path="/favorites" element={<Favorites/>}/>
@@ -30,7 +24,6 @@ function App() {
             <Route path="/login" element={<Login/>}/>
             <Route path="/signup" element={<SignUp/>}/>
             </Routes>
-
           </main>
           <Footer/>
           </MovieProvider>
