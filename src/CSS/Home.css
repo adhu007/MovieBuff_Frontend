@@ -52,7 +52,19 @@
   .search-form {
     margin-bottom: 1rem;
   }
+
 }
+
+@media (max-width: 401px) {
+  
+  .search-button {
+
+    padding: 0.25rem 0.5rem;
+    
+  }
+
+}
+
 
 .movies-grid {
   display: grid;
