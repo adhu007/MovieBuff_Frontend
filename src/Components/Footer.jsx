@@ -13,14 +13,14 @@ const Footer = () => {
             
             
                   
-                <h5
+           <h5
                 style={{
                     color: "#999",
                     textAlign: "center",
                     marginTop: "10px"
                 }}
             >
-              <i>&copy; 2025</i> Adarsh Das
+            Copyright <i>&copy; </i>2025 Adarsh Das
             </h5>
                     
                 

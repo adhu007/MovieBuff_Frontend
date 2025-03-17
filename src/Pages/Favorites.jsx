@@ -12,7 +12,7 @@ function Favorites() {
         return (
 
             <div className="favorites">
-                <h2>Your Favorites</h2>
+                <h2>Your Favorites🤩</h2>
             <div className="movies-grid">
             {favorites.map((movie) => 
                 
@@ -30,7 +30,7 @@ function Favorites() {
         return (
             <div className="favorites-container">
                 <div className="favorites-empty">
-                <h2>Oops! None </h2>
+                <h2>Oops! None🙃</h2>
                 <p>Start adding your favorite movies here...</p>
                 </div>
             </div>

@@ -4,7 +4,7 @@
   border-radius: 8px;
   overflow: hidden;
   background-color: #1a1a1a;
-  /* transition: transform 0.3s ease-out; */
+  transition: transform 0.3s ease-in-out;
   /* max-height: 370px; */
   height: 100%;
   max-width: 250px;  
@@ -14,10 +14,10 @@
   
 }
 
-/* .movie-card:hover {
-  transform: translateY(-5px);
+.movie-card:hover {
+  transform: translateY(-7px);
   
-} */
+}
 
 .movie-poster {
   
